@@ -18,7 +18,7 @@ public class Local {
     private String descricao;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "usuario_id")
     private User owner;
 
     @OneToMany(mappedBy = "local")
