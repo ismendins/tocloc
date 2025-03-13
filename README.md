@@ -17,3 +17,24 @@ A Tocloc é uma plataforma de gerenciamento de reservas de locais esportivos, de
 - Spring
 - Maven
 - PostgreSQL database
+
+<h4> Requisitos </h4>
+
+- Java JDK 21
+- Docker
+- Docker Compose
+- Git
+
+<h4>Configuração</h4>
+
+```
+$ git clone https://github.com/ismendins/tocloc
+$ cd tocloc
+```
+
+Após entrar na pasta, execute a aplicação:
+
+```
+$ docker-compose up
+```
+Assim, os containers da aplicação serão criados.
