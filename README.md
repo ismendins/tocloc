@@ -35,6 +35,6 @@ $ cd tocloc
 Após entrar na pasta, execute a aplicação:
 
 ```
-$ docker-compose up
+$ docker compose up
 ```
 Assim, os containers da aplicação serão criados.
